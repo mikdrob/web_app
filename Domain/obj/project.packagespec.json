@@ -1,0 +1,49 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Mihkel\\RiderProjects\\booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f\\Domain\\Domain.csproj",
+    "projectName": "Domain",
+    "projectPath": "C:\\Users\\Mihkel\\RiderProjects\\booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f\\Domain\\Domain.csproj",
+    "outputPath": "C:\\Users\\Mihkel\\RiderProjects\\booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f\\Domain\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.1": {
+      "dependencies": {
+        "System.ComponentModel.Annotations": {
+          "target": "Package",
+          "version": "[4.6.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
