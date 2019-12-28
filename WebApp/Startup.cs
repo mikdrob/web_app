@@ -26,15 +26,10 @@ namespace WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            /*services.AddDbContext<AppDbContext>(
-                options => options.UseSqlite("Data Source=C:/Users/Mihkel/RiderProjects/booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f/WebApp/books.db"));
-            */
             services.AddDbContext<AppDbContext>(
-                options => options.UseMySql("Server=alpha.akaver.com;Database=student2018_midrob_books;User=student2018;Password=student2018;",
-                    mySqlOptions =>
-                    {
-                        mySqlOptions.ServerVersion(new Version(10, 2, 29), ServerType.MariaDb); // replace with your Server Version and Type
-                    }));
+                options => options.UseSqlite("Data Source=C:/Users/Mihkel/RiderProjects/booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f/WebApp/books.db"));
+            
+      
 
             services.AddRazorPages();
         }
