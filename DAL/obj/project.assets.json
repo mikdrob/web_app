@@ -893,23 +893,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mihkel\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/mikhaildrobyshev/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mihkel\\RiderProjects\\booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f\\DAL\\DAL.csproj",
+      "projectUniqueName": "/Users/mikhaildrobyshev/RiderProjects/web_app1/DAL/DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\Mihkel\\RiderProjects\\booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\Mihkel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mihkel\\RiderProjects\\booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f\\DAL\\obj\\",
+      "projectPath": "/Users/mikhaildrobyshev/RiderProjects/web_app1/DAL/DAL.csproj",
+      "packagesPath": "/Users/mikhaildrobyshev/.nuget/packages/",
+      "outputPath": "/Users/mikhaildrobyshev/RiderProjects/web_app1/DAL/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Mihkel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/mikhaildrobyshev/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -920,8 +916,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\Mihkel\\RiderProjects\\booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Mihkel\\RiderProjects\\booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f\\Domain\\Domain.csproj"
+            "/Users/mikhaildrobyshev/RiderProjects/web_app1/Domain/Domain.csproj": {
+              "projectPath": "/Users/mikhaildrobyshev/RiderProjects/web_app1/Domain/Domain.csproj"
             }
           }
         }
@@ -953,7 +949,13 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
       }
     }
   }

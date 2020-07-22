@@ -8,7 +8,7 @@ namespace Domain
     {
         public int BookId { get; set; }
 
-        [MaxLength(128)]
+        [MaxLength(120)]
         public string Title { get; set; } = default!;
 
         [MaxLength(1024)]

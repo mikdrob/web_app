@@ -27,7 +27,7 @@ namespace WebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(
-                options => options.UseSqlite("Data Source=C:/Users/Mihkel/RiderProjects/booksolution-d27f6a84f33ef6cafe0ee1907497115eedf0382f/WebApp/books.db"));
+                options => options.UseSqlite("Data Source=./books.db"));
             
       
 

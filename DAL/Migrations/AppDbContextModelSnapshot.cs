@@ -13,7 +13,7 @@ namespace DAL.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.0.0");
+                .HasAnnotation("ProductVersion", "3.1.0");
 
             modelBuilder.Entity("Domain.Author", b =>
                 {
@@ -64,7 +64,7 @@ namespace DAL.Migrations
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("TEXT")
-                        .HasMaxLength(128);
+                        .HasMaxLength(120);
 
                     b.Property<int>("WordCount")
                         .HasColumnType("INTEGER");
@@ -169,13 +169,13 @@ namespace DAL.Migrations
             modelBuilder.Entity("Domain.BookAuthor", b =>
                 {
                     b.HasOne("Domain.Author", "Author")
-                        .WithMany()
+                        .WithMany("AuthorBooks")
                         .HasForeignKey("AuthorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Domain.Book", "Book")
-                        .WithMany()
+                        .WithMany("BookAuthors")
                         .HasForeignKey("BookId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
